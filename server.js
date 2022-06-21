@@ -13,6 +13,10 @@ app.get("/contact", (req, res) => {
 });
 
 app.get("/about", function(req, res){
+    var num1 = res.num1;
+    var num2 = res.num2;
+    var ansNum = Number(num1) + Number(num2);
+    res.send("Anwer is " + ansNum);
     res.send("Visharad About page");
 });
 
