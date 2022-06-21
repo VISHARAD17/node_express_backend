@@ -23,3 +23,5 @@ app.get("/about", function(req, res){
 app.listen(3000, function(){
     console.log("server started on port 3000");
 });
+
+// server test run using npm modules for MERN stack
